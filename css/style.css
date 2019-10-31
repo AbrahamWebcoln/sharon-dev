@@ -105,6 +105,7 @@ h3{
 	padding-bottom:6px;
 	font-weight:400;
 	margin:0px;
+	color: grey;
 }
 h4{
 	font-family: 'Open Sans', sans-serif;
@@ -150,6 +151,7 @@ header{
 	overflow:hidden;
 	margin:0 auto !important;
 	background:#CACACA;
+	max-height: 650px;
 }
 
 .bannerText{

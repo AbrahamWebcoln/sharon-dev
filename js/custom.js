@@ -71,22 +71,22 @@ jQuery(function($) {
 $(document).ready(function(e) {
 //var windowBottom = $(window).height();
 var index=0;
+if(index==0){	
+			
+  $('.chart').easyPieChart({
+    easing: 'easeOutBounce',
+    onStep: function(from, to, percent) {
+      $(this.el).find('.percent').text(Math.round(percent));
+    }
+  });
+  
+}
+index++;
 $(document).scroll(function(){
-	var top = $('.technical').height()-$(window).scrollTop();
-	console.log(top)
-	if(top<-300){
-		if(index==0){	
-			
-			$('.chart').easyPieChart({
-				easing: 'easeOutBounce',
-				onStep: function(from, to, percent) {
-					$(this.el).find('.percent').text(Math.round(percent));
-				}
-			});
-			
-		}
-		index++;
-	}
+//	var top = $('.technical').height()-$(window).scrollTop();
+//	console.log(top)
+//	if(top<-300){
+//	}
 })
 //console.log(nagativeValue)
 });
