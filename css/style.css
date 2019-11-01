@@ -105,7 +105,7 @@ h3{
 	padding-bottom:6px;
 	font-weight:400;
 	margin:0px;
-	color: grey;
+	/* color: grey; */
 }
 h4{
 	font-family: 'Open Sans', sans-serif;
@@ -671,6 +671,22 @@ header{
 	/*font-size:13px;*/
 	line-height:18px;
 }
+
+.education li {
+    color: #84868d;
+    /* font-size: 13px; */
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.education .workYear.strengths {
+	background-color: #9cc3e5;
+}
+
+.education .workYear.opp {
+	background-color: #a8d08d;
+}
+
 .education .heading p{
 	padding-bottom:41px;
 }
