@@ -679,14 +679,6 @@ header{
 	font-weight: 400;
 }
 
-.education .workYear.strengths {
-	background-color: #9cc3e5;
-}
-
-.education .workYear.opp {
-	background-color: #a8d08d;
-}
-
 .education .heading p{
 	padding-bottom:41px;
 }
@@ -1350,9 +1342,46 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 }
 
+/*Custom*/
 
+.education .workYear.strengths {
+	background-color: #9cc3e5;
+}
 
+.education .workYear.opp {
+	background-color: #a8d08d;
+}
 
+.education .workYear.threats {
+	background-color: #ffd965;
+}
 
+.heading h3 {
+	color: grey;
+	font-weight: normal;
+}
 
+.professional-development{
+	background-color: #fff;
+}
+
+.professional-development h2 {
+    color: #ff675f;
+}
+
+.professional-development .container {
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+.professional-development li {
+    color: #84868d;
+    /* font-size: 13px; */
+    line-height: 18px;
+	font-weight: 400;
+	text-align: left;
+}
+
+ul li * {
+    margin-left: 20px;
+}
 
