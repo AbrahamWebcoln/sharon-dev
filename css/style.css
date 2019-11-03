@@ -1365,15 +1365,19 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	background-color: #fff;
 }
 
-.professional-development h2 {
+.self-assessment-goals {
+	background-color: #eeeeee;
+}
+
+.professional-development h2, .self-assessment-goals h2 {
     color: #ff675f;
 }
 
-.professional-development .container {
+.professional-development .container, .self-assessment-goals .container {
     padding-top: 85px;
     padding-bottom: 90px;
 }
-.professional-development li {
+.professional-development li, .self-assessment-goals li  {
     color: #84868d;
     /* font-size: 13px; */
     line-height: 18px;
