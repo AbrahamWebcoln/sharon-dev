@@ -55,12 +55,12 @@
                   <a class="navbar-brand" href="#">Menu</a> </div>
                 <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
-                    <li class="menuItem active"><a href="#wrapper">Home</a></li>
-                    <li class="menuItem"><a href="#aboutme">About</a></li>
-                    <li class="menuItem"><a href="#technical">Skills</a></li>
-                    <li class="menuItem"><a href="#exprience">Experience</a></li>
-                    <li class="menuItem"><a href="#education">Education</a></li>
-                    <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
+                     <!-- <li class="menuItem active"><a href="#wrapper">Home</a></li> -->
+                    <li class="menuItem"><a href="#aboutme">Home</a></li>
+                    <li class="menuItem"><a href="#creds">Credentials</a></li>
+                    <li class="menuItem"><a href="#reflections">Professional Development</a></li>
+                    <li class="menuItem"><a href="#academic">Continuing Education</a></li>
+                    <li class="menuItem"><a href="#service-leadership">Service/Leadership</a></li>
                     <li class="menuItem"><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
@@ -96,7 +96,7 @@
   <!--about me end-->
 
   <!--protfolio start-->
-  <section class="protfolio" id="protfolio">
+  <section class="protfolio creds" id="creds">
     <div class="container">
       <div class="heading">
         <h2>Credentials</h2>
@@ -178,7 +178,7 @@
 
 
   <!--exprience start-->
-  <section class="education" id="exprience">
+  <section class="education reflections" id="reflections">
     <div class="container">
       <div class="heading">
         <h2>Personal Reflections</h2>
@@ -328,7 +328,7 @@
   </section>
   <!--exprience end-->
 
-  <section class="professional-development">
+  <section class="professional-development" id="professional-development">
     <div class="container">
       <div class="heading">
         <h2>Professional Development Plan</h2>
@@ -411,7 +411,7 @@
   </section>
 
 
-  <section class="self-assessment-goals">
+  <section class="self-assessment-goals" id="self-assessment-goals">
     <div class="container">
       <div class="heading">
         <h2>NBCOT self-assessment goals</h2>
@@ -439,7 +439,7 @@
   </section>
 
 
-<section class="academic">
+<section class="academic" id="academic">
     <div class="container">
       <div class="heading">
           <h2>Examples of academic/clinical Evaluations</h2>
@@ -481,7 +481,7 @@
   </section>
 
 
-  <section class="continuing-ed">
+  <section class="continuing-ed" id="continuing-ed">
       <div class="container">
         <div class="heading">
             <h2>CONTINUING EDUCATION: Continuing Education Records/Certifications</h2>
@@ -576,10 +576,10 @@
       </div>
     </section>
 
-    <section class="continuing-comp">
+    <section class="continuing-comp" id="service-leadership">
         <div class="container">
           <div class="heading">
-            <h2>SERVICE/LEADERSHIP</h2>
+            <h2>Service/Leadership</h2>
           </div>
           <ul>
             <li>
@@ -722,13 +722,12 @@ $(document).ready( function() {
   //enabling stickUp on the '.navbar-wrapper' class
   $('.navbar-wrapper').stickUp({
 				parts: {
-				  0: 'banner',
-				  1: 'aboutme',
-				  2: 'technical',
-				  3: 'exprience',
-				  4: 'education',
-				  5: 'protfolio',
-				  6: 'contact'
+				  0: 'aboutme',
+				  1: 'creds',
+				  2: 'reflections',
+				  3: 'academic',
+				  4: 'service-leadership',
+				  5: 'contact'
 				},
 				itemClass: 'menuItem',
 				itemHover: 'active',
