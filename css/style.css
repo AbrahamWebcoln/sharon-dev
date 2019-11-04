@@ -1519,7 +1519,15 @@ ul.eval-container li:hover span.hoverBox .linKed{
 .recog ul.eval-container li {
     cursor: auto;
 }
-.contact 
+
+.deans p {
+    padding-top: 30px;
+    font-size: 1.8em;
+    color: #474d5d;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 0;
+}
 
 @media screen and (max-width:1200px){
 	.continuing-ed .bntDownload {
