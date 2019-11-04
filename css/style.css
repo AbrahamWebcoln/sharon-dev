@@ -1333,9 +1333,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	background-color: #ffd965;
 }
 
-.heading h3 {
+.heading h3.swotful {
 	color: grey;
-	font-weight: normal;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .professional-development, .continuing-ed{
@@ -1394,12 +1395,6 @@ p.title {
 .professional-development .heading, .self-assessment-goals .heading {
 	padding-bottom: 0;
 }
-
-
-
-
-
-
 
 ul.eval-container{
 	display:block;
@@ -1464,4 +1459,23 @@ ul.eval-container li:hover span.hoverBox .linKed{
 	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
+}
+
+.continuing-ed p {
+    color: #84868d;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.continuing-ed .heading {
+	padding-bottom: 0;	
+}
+.continuing-ed a.bntDownload {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
