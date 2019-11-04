@@ -1623,6 +1623,22 @@ section {
 	}
 }
 
+@media screen and (max-width:767px) {
+	.navbar-inverse .navbar-toggle {
+		border: none;
+	}
+	
+	.navbar-toggle {
+		margin-top: 18px;
+		padding: 0;
+	}
+	
+	.navbar.navbar-inverse.navbar-static-top a {
+		padding-top: 17px;
+		padding-bottom: 0;
+	}	
+}
+
 @media screen and (max-width:600px) {
 	section h2 {
 		font-size: 1.5em;
