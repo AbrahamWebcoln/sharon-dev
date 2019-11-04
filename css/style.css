@@ -655,7 +655,7 @@ header{
 	color:#ff675f;
 }
 .education p{
-	color:#84868d;
+	color:#474d5d;
 	/*font-size:13px;*/
 	line-height:18px;
 }
@@ -952,9 +952,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	/*font-size:13px;*/
 	line-height:18px;
 }
-.contact .heading p{
+/* .contact .heading p{
 	padding-bottom:41px;
-}
+} */
 
 .contact h4{
 	font-weight:700;
@@ -1334,12 +1334,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .heading h3.swotful {
-	color: grey;
+	color: #474d5d;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.professional-development, .continuing-ed{
+.professional-development, .continuing-ed, .recog{
 	background-color: #fff;
 }
 
@@ -1354,20 +1354,36 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	color: #fff;
 }
 
-.professional-development h2, .self-assessment-goals h2, .continuing-ed h2{
+.professional-development h2, .self-assessment-goals h2, .continuing-ed h2, .continuing-comp h2, .recog h2{
 	color: #ff675f;
 	padding-bottom: 40px;
 }
 
-.professional-development .container, .self-assessment-goals .container, .academic .container, .continuing-ed .container{
+.education h2 {
+	padding-bottom: 40px;
+}
+
+.continuing-comp h2 {
+	padding-bottom: 0;
+}
+
+.continuing-comp a {
+    color: #000;
+	font-weight: 400;
+}
+
+.professional-development .container, .self-assessment-goals .container, .academic .container, .continuing-ed .container, .continuing-comp .container, .recog .container{
     padding-top: 85px;
     padding-bottom: 90px;
 }
-.education li, .professional-development li, .self-assessment-goals li  {
+.education li, .professional-development li {
     color: #84868d;
     line-height: 18px;
 	font-weight: 400;
 	text-align: left;
+}
+.education li, .self-assessment-goals li  {
+	color: #474d5d;
 }
 
 ul li ul li {
@@ -1456,12 +1472,18 @@ ul.eval-container li:hover span.hoverBox .zoom{
 ul.eval-container li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
-	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 
 .continuing-ed p {
+    color: #84868d;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.recog p{
     color: #84868d;
     text-transform: uppercase;
     font-weight: bold;
@@ -1479,3 +1501,32 @@ ul.eval-container li:hover span.hoverBox .linKed{
     float: none;
     margin: 0 auto;
 }
+.continuing-comp, .education {
+    background: #eeeeee;
+    color: #474d5d;
+}
+
+.education p span {
+    font-weight: bold;
+}
+
+.recog img {
+	 border: solid #000 4px; 
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	opacity: 0.8;
+}
+.recog ul.eval-container li {
+    cursor: auto;
+}
+.contact 
+
+@media screen and (max-width:1200px){
+	.continuing-ed .bntDownload {
+		display: block;		
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
