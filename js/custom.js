@@ -27,7 +27,6 @@
           return false;
       });
   });
-
   // Nav bar
   $(document).ready(function(e) {
       $(document).on("click", ".navbar .menuItem", function(t) {
@@ -39,7 +38,6 @@
               500,
               'linear'
           )
-
       });
   });
 
